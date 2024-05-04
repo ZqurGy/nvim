@@ -14,6 +14,9 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
 
     "folke/tokyonight.nvim",
+
+    -- nvim-tree
+    { "nvim-tree/nvim-tree.lua", requires = "kyazdani42/nvim-web-devicons" },
 }
 local opts = {} -- 注意要定义这个变量
 require("lazy").setup(plugins, opts)
