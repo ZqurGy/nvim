@@ -13,10 +13,22 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
 
+    -- theme
     "folke/tokyonight.nvim",
 
     -- nvim-tree
-    { "nvim-tree/nvim-tree.lua", requires = "kyazdani42/nvim-web-devicons" },
+    {
+        "nvim-tree/nvim-tree.lua",
+        "kyazdani42/nvim-web-devicons",
+    },
+
+    -- bufferline
+    { 
+        "akinsho/bufferline.nvim", 
+        "moll/vim-bbye",
+    }, 
+
 }
+
 local opts = {} -- 注意要定义这个变量
 require("lazy").setup(plugins, opts)

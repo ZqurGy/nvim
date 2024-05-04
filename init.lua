@@ -12,3 +12,6 @@ require("colorscheme")
 
 -- 插件配置
 require("plugin-config.nvim-tree")
+
+-- bufferline
+require("plugin-config.bufferline")

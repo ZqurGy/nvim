@@ -67,8 +67,17 @@ map.set("n", "Q", ":qa!<CR>", opt)
 -- 插件快捷键
 local pluginKeys = {}
 
--- nvim-tree
--- alt + m 键打开关闭tree
--- map("n", "<A-m>", ":NvimTreeToggle<CR>", opt)
+-- bufferline
+-- 左右Tab切换
+map.set("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
+map.set("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
+-- 关闭
+--"moll/vim-bbye"
+map.set("n", "<C-w>", ":Bdelete!<CR>", opt)
+map.set("n", "<leader>bl", ":BufferLineCloseRight<CR>", opt)
+map.set("n", "<leader>bh", ":BufferLineCloseLeft<CR>", opt)
+map.set("n", "<leader>bc", ":BufferLinePickClose<CR>", opt)
+
+
 return pluginKeys
 

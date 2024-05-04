@@ -6,6 +6,8 @@ if not status then
 end
 
 local keymap = vim.keymap
+
+-- leader + m 键打开关闭tree
 keymap.set("n", "<leader>m", ":NvimTreeToggle<CR>")
 
 -- 列表操作快捷键
