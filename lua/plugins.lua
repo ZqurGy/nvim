@@ -33,6 +33,13 @@ local plugins = {
         "nvim-lualine/lualine.nvim",
         "arkav/lualine-lsp-progress",
     },
+    -- telescope
+    {
+        "nvim-telescope/telescope.nvim",
+        "nvim-lua/plenary.nvim",
+        -- telescope-plugins
+        "LinArcX/telescope-env.nvim",
+    },
 
 }
 

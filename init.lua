@@ -19,4 +19,5 @@ require("plugin-config.lualine")
 -- bufferline
 require("plugin-config.bufferline")
 
-
+-- telescope
+require("plugin-config.telescope")
