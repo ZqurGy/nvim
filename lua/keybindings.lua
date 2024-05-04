@@ -64,9 +64,6 @@ map.set("n", "q", ":q<CR>", opt)
 map.set("n", "qq", ":q!<CR>", opt)
 map.set("n", "Q", ":qa!<CR>", opt)
 
--- 插件快捷键
-local pluginKeys = {}
-
 -- bufferline
 -- 左右Tab切换
 map.set("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
@@ -78,6 +75,10 @@ map.set("n", "<leader>bl", ":BufferLineCloseRight<CR>", opt)
 map.set("n", "<leader>bh", ":BufferLineCloseLeft<CR>", opt)
 map.set("n", "<leader>bc", ":BufferLinePickClose<CR>", opt)
 
+-- 插件快捷键
+-- local pluginKeys = {}
 
-return pluginKeys
+
+
+-- return pluginKeys
 

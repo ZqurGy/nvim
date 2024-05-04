@@ -28,6 +28,12 @@ local plugins = {
         "moll/vim-bbye",
     }, 
 
+    -- lualine
+    {
+        "nvim-lualine/lualine.nvim",
+        "arkav/lualine-lsp-progress",
+    },
+
 }
 
 local opts = {} -- 注意要定义这个变量
