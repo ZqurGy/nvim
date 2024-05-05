@@ -40,6 +40,14 @@ local plugins = {
         -- telescope-plugins
         "LinArcX/telescope-env.nvim",
     },
+    -- dashboard-nvim
+    {
+        "nvimdev/dashboard-nvim",
+        -- project
+        "ahmedkhalf/project.nvim",
+    },
+    -- treesitter
+    { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
 
 }
 

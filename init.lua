@@ -21,3 +21,9 @@ require("plugin-config.bufferline")
 
 -- telescope
 require("plugin-config.telescope")
+
+-- project
+require("plugin-config.project")
+
+-- dashboard
+require("plugin-config.dashboard")

@@ -63,7 +63,7 @@ nvim_tree.setup({
     update_cwd = true,
     update_focused_file = {
         enable = true,
-        update_root = true,
+ --       update_root = true,
         update_cwd = true,
     },
     -- 显示 git 状态图标
@@ -101,7 +101,7 @@ nvim_tree.setup({
         -- NOTE: WSL need wsl-open
         -- npm install -g wsl-open
         -- https://github.com/4U6U57/wsl-open/
-        cmd = 'wsl-open', -- mac 直接设置为 open
+--        cmd = 'wsl-open', -- mac 直接设置为 open
     },
     renderer = {
         root_folder_label = false,
