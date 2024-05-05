@@ -15,3 +15,5 @@ require("lsp.setup")
 
 -- cmp 自动补全
 require("cmp.setup")
+
+require("lsp.ui")
