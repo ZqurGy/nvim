@@ -11,22 +11,25 @@ require("plugins")
 require("colorscheme")
 
 -- 插件配置
-require("plugin-config.nvim-tree")
+-- require("plugin-config.nvim-tree")
 
 -- lualine
-require("plugin-config.lualine")
+-- require("plugin-config.lualine")
 
 -- bufferline
-require("plugin-config.bufferline")
+-- require("plugin-config.bufferline")
 
 -- telescope
-require("plugin-config.telescope")
+-- require("plugin-config.telescope")
 
 -- project
-require("plugin-config.project")
+-- require("plugin-config.project")
 
 -- dashboard
-require("plugin-config.dashboard")
+-- require("plugin-config.dashboard")
 
 -- treesitter
-require("plugin-config.nvim-treesitter")
+-- require("plugin-config.nvim-treesitter")
+
+-- 内置lsp
+require("lsp.setup")
