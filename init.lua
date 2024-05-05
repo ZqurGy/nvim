@@ -27,3 +27,6 @@ require("plugin-config.project")
 
 -- dashboard
 require("plugin-config.dashboard")
+
+-- treesitter
+require("plugin-config.nvim-treesitter")
