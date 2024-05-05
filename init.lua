@@ -10,28 +10,8 @@ require("plugins")
 -- 主题设置 
 require("colorscheme")
 
--- 插件配置
--- require("plugin-config.nvim-tree")
-
--- lualine
--- require("plugin-config.lualine")
-
--- bufferline
--- require("plugin-config.bufferline")
-
--- telescope
--- require("plugin-config.telescope")
-
--- project
--- require("plugin-config.project")
-
--- dashboard
--- require("plugin-config.dashboard")
-
--- treesitter
--- require("plugin-config.nvim-treesitter")
-
 -- 内置lsp
 require("lsp.setup")
 
+-- cmp 自动补全
 require("cmp.setup")

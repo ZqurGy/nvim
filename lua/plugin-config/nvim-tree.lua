@@ -2,7 +2,7 @@
 local status, nvim_tree = pcall(require, "nvim-tree")
 if not status then
     vim.notify("没有找到 nvim-tree")
-  return
+    return
 end
 
 local keymap = vim.keymap
@@ -56,14 +56,14 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 nvim_tree.setup({
-    
+
     -- 快捷键配置
     on_attach = on_attach,
     -- project plugin 需要这样设置
     update_cwd = true,
     update_focused_file = {
         enable = true,
- --       update_root = true,
+        --       update_root = true,
         update_cwd = true,
     },
     -- 显示 git 状态图标
@@ -101,7 +101,7 @@ nvim_tree.setup({
         -- NOTE: WSL need wsl-open
         -- npm install -g wsl-open
         -- https://github.com/4U6U57/wsl-open/
---        cmd = 'wsl-open', -- mac 直接设置为 open
+        --        cmd = 'wsl-open', -- mac 直接设置为 open
     },
     renderer = {
         root_folder_label = false,

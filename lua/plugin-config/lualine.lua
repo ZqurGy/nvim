@@ -6,7 +6,7 @@ if not status then
 end
 
 lualine.setup({
-    
+
     options = {
         -- https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md
         theme = "tokyonight",
