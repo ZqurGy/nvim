@@ -33,3 +33,5 @@ require("colorscheme")
 
 -- 内置lsp
 require("lsp.setup")
+
+require("cmp.setup")

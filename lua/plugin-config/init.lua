@@ -80,6 +80,7 @@ return {
     { "neovim/nvim-lspconfig" },
     -- Completion engine
     { "hrsh7th/nvim-cmp" },
+    { "hrsh7th/vim-vsnip" },
     -- Snippet engine
     { "L3MON4D3/LuaSnip" },
     { "saadparwaiz1/cmp_luasnip" },
@@ -92,6 +93,7 @@ return {
     { "hrsh7th/cmp-nvim-lsp-signature-help" }, -- { name = 'nvim_lsp_signature_help' }
     -- common snippets
     { "rafamadriz/friendly-snippets" },
+    { "onsails/lspkind-nvim" },
 
 }
 
