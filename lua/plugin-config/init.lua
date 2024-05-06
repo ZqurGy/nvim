@@ -1,8 +1,10 @@
 return {
+
     -- requires
     { "kyazdani42/nvim-web-devicons" },
     { "moll/vim-bbye" },
     { "nvim-lua/plenary.nvim" },
+
     -- theme
     --    -- tokyonight
     {
@@ -35,6 +37,7 @@ return {
             require("plugin-config.lualine")
         end,
     },
+
     -- telescope
     { "LinArcX/telescope-env.nvim" },
     {
@@ -53,6 +56,7 @@ return {
             require("plugin-config.dashboard")
         end,
     },
+
     -- project
     {
         "ahmedkhalf/project.nvim",
@@ -60,6 +64,7 @@ return {
             require("plugin-config.project")
         end,
     },
+
     -- treesitter
     {
         "nvim-treesitter/nvim-treesitter",
@@ -71,19 +76,24 @@ return {
             require("plugin-config.nvim-treesitter")
         end,
     },
-
+    
+    ------------------------------------lsp--------------------------------------------
     -- lsp
     { "williamboman/mason.nvim" },
     { "williamboman/mason-lspconfig.nvim" },
     { "WhoIsSethDaniel/mason-tool-installer.nvim" },
+
     -- Lspconfig
     { "neovim/nvim-lspconfig" },
+
     -- Completion engine
     { "hrsh7th/nvim-cmp" },
-    { "hrsh7th/vim-vsnip" },
+
     -- Snippet engine
     { "L3MON4D3/LuaSnip" },
+    { "hrsh7th/vim-vsnip" },
     { "saadparwaiz1/cmp_luasnip" },
+
     -- Completion sources
     { "hrsh7th/cmp-vsnip" },
     { "hrsh7th/cmp-nvim-lsp" }, -- { name = nvim_lsp }
@@ -91,10 +101,11 @@ return {
     { "hrsh7th/cmp-path" }, -- { name = 'path' }
     { "hrsh7th/cmp-cmdline" }, -- { name = 'cmdline' }
     { "hrsh7th/cmp-nvim-lsp-signature-help" }, -- { name = 'nvim_lsp_signature_help' }
+
     -- common snippets
     { "rafamadriz/friendly-snippets" },
+
+    -- ui 美化
     { "onsails/lspkind-nvim" },
-
 }
-
 

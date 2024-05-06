@@ -80,3 +80,4 @@ vim.o.showtabline = 2
 vim.o.showmode = false
 -- 使用剪切版, 不确定是不是什么bug，unnamed理论上只能使用 * 寄存器，但是缺使用 * 和 + 寄存器（两个都是用了）
 vim.opt.clipboard:append("unnamed")
+
