@@ -76,7 +76,15 @@ return {
             require("plugin-config.nvim-treesitter")
         end,
     },
-    
+    -- indent-blankline
+    {
+        "lukas-reineke/indent-blankline.nvim",
+        main = "ibl",
+        config = function()
+            require("plugin-config.indent-blankline")
+        end,
+    },
+
     ------------------------------------lsp--------------------------------------------
     -- lsp
     { "williamboman/mason.nvim" },
@@ -107,5 +115,7 @@ return {
 
     -- ui 美化
     { "onsails/lspkind-nvim" },
+    -- 不建议使用
+    -- { "nvimdev/lspsaga.nvim" },
 }
 

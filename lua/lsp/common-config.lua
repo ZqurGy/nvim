@@ -6,6 +6,10 @@ M.keyAttach = function(bufnr)
     end
     -- 绑定快捷键
     require("keybindings").mapLSP(buf_set_keymap)
+
+    -- 实际上使用的是以下 api 进行绑定快捷键
+    --local opt = {noremap = true, silent = true, buffer = bufnr }
+    --vim.keymap.set("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>", opt)
 end
 
 -- 禁用格式化功能，交给专门插件插件处理
