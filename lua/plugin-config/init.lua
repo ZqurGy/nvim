@@ -1,9 +1,9 @@
 return {
 
     -- requires
-    { "kyazdani42/nvim-web-devicons" },
-    { "moll/vim-bbye" },
-    { "nvim-lua/plenary.nvim" },
+    { "kyazdani42/nvim-web-devicons" }, -- needed by 
+    { "moll/vim-bbye" }, -- needed by bufferline
+    { "nvim-lua/plenary.nvim" }, -- needed by null_ls
 
     -- theme
     --    -- tokyonight
@@ -117,5 +117,7 @@ return {
     { "onsails/lspkind-nvim" },
     -- 不建议使用
     -- { "nvimdev/lspsaga.nvim" },
+    -- Code formatter
+    { "nvimtools/none-ls.nvim" },
 }
 
