@@ -22,7 +22,7 @@ null_ls.setup({
 			},
 		}),
 		-- cmake
-		formatting.cgersemi,
+		-- formatting.cgersemi,
 		-- frontend
 		formatting.prettier.with({ -- 只比默认配置少了 markdown
 			filetypes = {
@@ -49,6 +49,6 @@ null_ls.setup({
 	diagnostics_format = "[#{s}] #{m}",
 	-- 保存自动格式化
 	on_attach = function(_)
-		vim.cmd([[ command! Format execute 'lua vim.lsp.buf.formatting()']])
+		-- vim.cmd([[ command! Format execute 'lua vim.lsp.buf.formatting()']])
 	end,
 })
